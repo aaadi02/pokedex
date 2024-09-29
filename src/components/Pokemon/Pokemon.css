@@ -1,0 +1,22 @@
+.image {
+    width: 100px;
+    height: 100px;
+    padding: 2rem;
+}
+
+.pokemon {
+    display: flex;
+    flex-basis: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-weight: bolder;
+    letter-spacing: 0.5rem;
+}
+
+.pokemon:hover {
+    background-color: lavender;
+}

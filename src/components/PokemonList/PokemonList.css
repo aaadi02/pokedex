@@ -1,0 +1,29 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5rem;
+
+    margin: 2rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+.controls {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.controls button {
+    padding: 1rem 3rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+.data {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-basis: 30%; */
+}
